@@ -13,10 +13,10 @@
       }
       body {
         font-family: "jetbrains mono";
-        background-color: #000;
+        background-color: #fff;
         color: #dedede;
         font-weight: 800;
-        font-size: 64px;
+        font-size: 200px;
         width: 100%;
         height: 100vh;
         display: flex;
@@ -24,10 +24,20 @@
         align-items: center;
       }
       div {
-        background: linear-gradient(-15deg, var(--g1), var(--g2));
+        width: 512px;
+        height: 512px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        flex-direction: column;
+        line-height: 0.8;
+        letter-spacing: 40px;
       }
       p {
         text-shadow: 0 0 10px #000;
+        text-align: center;
+        transform: translate(20px, 0);
       }
     </style>
     <meta charset="UTF-8" />
@@ -36,8 +46,12 @@
     <title>22is5 Icon</title>
   </head>
   <body>
-    <div style="width: 128px; height: 128px; display: flex; justify-content: center; align-items: center">
-      <p>225</p>
+    <div>
+      <p>2+&nbsp;</p>
+      <br />
+      <p>&nbsp;2&nbsp;</p>
+      <br />
+      <p>&nbsp;=5</p>
     </div>
   </body>
 </html>
