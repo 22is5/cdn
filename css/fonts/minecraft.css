@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Minecraft Regular";
+  src: url("/css/fonts/otf/minecraft/minecraft-regular.otf");
+}
+@font-face {
+  font-family: "Minecraft Bold";
+  src: url("/css/fonts/otf/minecraft/minecraft-bold.otf");
+}
+@font-face {
+  font-family: "Minecraft Italic";
+  src: url("/css/fonts/otf/minecraft/minecraft-italic.otf");
+}
+@font-face {
+  font-family: "Minecraft Bold Italic";
+  src: url("/css/fonts/otf/minecraft/minecraft-bolditalic.otf");
+}

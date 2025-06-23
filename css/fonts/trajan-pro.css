@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Trajan Regular";
-  src: url("/css/fonts/ttf/trajan-pro/TrajanPro-Regular.ttf");
+  src: url("/css/fonts/ttf/TrajanPro-Regular.ttf");
 }
 @font-face {
   font-family: "Trajan Bold";
-  src: url("/css/fonts/ttf/trajan-pro/TrajanPro-Bold.otf");
+  src: url("/css/fonts/otf/TrajanPro-Bold.otf");
 }
