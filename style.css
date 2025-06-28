@@ -1,0 +1,58 @@
+@import url("/css/reset.css");
+
+/* Fonts */
+@import url("/fonts/clancy.css");
+@import url("/fonts/jetbrains-mono.css");
+@import url("/fonts/martian-mono.css");
+@import url("/fonts/minecraft.css");
+@import url("/fonts/moms-typewriter.css");
+@import url("/fonts/mona-sans.css");
+@import url("/fonts/nickel-gothic-compressed-regular.css");
+@import url("/fonts/oswald.css");
+@import url("/fonts/rubik.css");
+@import url("/fonts/scope-one.css");
+@import url("/fonts/times.css");
+@import url("/fonts/trajan.css");
+/* Fonts */
+
+body {
+  font-family: "Mona Sans";
+  background-color: #efefef;
+}
+.parent {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+.main {
+  width: 512px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: #dedede;
+  height: fit-content;
+  padding: 12px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.links {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  color: #354a5f;
+}
+.spacer {
+  height: 2px;
+  background-color: #00000024;
+  margin: 12px 0;
+}

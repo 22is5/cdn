@@ -1,315 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-      body {
-        background-color: #000;
-        padding: 12px;
-      }
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-      .font a {
-        width: 100%;
-        height: 100%;
-      }
-      .fonts {
-        background-color: #cacaca;
-        padding: 12px;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-      }
-      .font {
-        background-color: #bcbcbc;
-        padding: 12px;
-        font-size: 16px;
-        display: flex;
-        flex-direction: column;
-        border-bottom: solid 2px #00000030;
-        border-left: solid 2px #00000030;
-        border-top: solid 2px #ffffff50;
-        border-right: solid 2px #ffffff50;
-      }
-      @media screen and (orientation: landscape) {
-        .font {
-          width: 50%;
-        }
-        .fontWrapper {
-          gap: 0px;
-        }
-      }
-      @media screen and (orientation: portrait) {
-        .font {
-          width: 100%;
-        }
-        .fontWrapper {
-          gap: 12px;
-        }
-      }
-      .font span {
-        /* font-weight: 600; */
-        font-size: 24px;
-      }
-      .header {
-        width: fit-content;
-      }
-      .title {
-        font-family: "Jetbrains Mono";
-        width: 100%;
-        font-size: 32px;
-        display: flex;
-        justify-content: center;
-        font-weight: 600;
-      }
-      .navbar {
-        font-family: "Jetbrains Mono";
-        font-size: 20px;
-        /* display: flex; */
-        display: none;
-        gap: 12px;
-        position: sticky;
-        top: 0;
-        padding: 12px;
-        background-color: #bcbcbc;
-        border-bottom: solid 2px #00000030;
-        border-left: solid 2px #00000030;
-        border-top: solid 2px #ffffff50;
-        border-right: solid 2px #ffffff50;
-      }
-      .navbar a {
-        padding: 6px 12px;
-        background-color: #bcbcbc;
-        border-bottom: solid 2px #00000030;
-        border-left: solid 2px #00000030;
-        border-top: solid 2px #ffffff50;
-        border-right: solid 2px #ffffff50;
-      }
-      .fontWrapper {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      .tags {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        background-color: #bcbcbc;
-        border-bottom: solid 2px #00000030;
-        border-left: solid 2px #00000030;
-        border-top: solid 2px #ffffff50;
-        border-right: solid 2px #ffffff50;
-        padding: 12px;
-        margin: 8px 0 0 0;
-        font-family: Rubik;
-        position: relative;
-      }
-      .tagHeader {
-        position: absolute;
-        transform: translate(-5px, -22px);
-        padding: 0 4px;
-        text-transform: lowercase;
-        color: #000000aa;
-        background-color: #bcbcbc;
-        letter-spacing: 1px;
-      }
-    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.22is5.org/css/fonts/cinzel.css" />
-    <link rel="stylesheet" href="https://cdn.22is5.org/css/fonts/clancy.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.22is5.org/css/fonts/jetbrains-mono.css"
+    <link rel="stylesheet" href="/style.css" />
+    <meta property="og:url" content="https://22is5.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="22is5" />
+    <meta property="og:description" content="22is5.com" />
+    <meta
+      property="og:image"
+      content="https://github.com/22is5/cdn/blob/main/img/brand/socialpreview2.png?raw=true"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.22is5.org/css/fonts/martian-mono.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.22is5.org/css/fonts/minecraft.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.22is5.org/css/fonts/moms-typewriter.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.22is5.org/css/fonts/mona-sans.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.22is5.org/css/fonts/nickel-gothic-compressed-regular.css"
-    />
-    <link rel="stylesheet" href="https://cdn.22is5.org/css/fonts/oswald.css" />
-    <link rel="stylesheet" href="https://cdn.22is5.org/css/fonts/rubik.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.22is5.org/css/fonts/scope-one.css"
-    />
-    <link rel="stylesheet" href="https://cdn.22is5.org/css/fonts/times.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.22is5.org/css/fonts/trajan-pro.css"
-    />
-    <title>22is5/cdn</title>
+    <title>22is5 - CDN</title>
   </head>
   <body>
-    <div class="fonts">
-      <div class="title">22is5 Content Delivery Network</div>
-      <div class="navbar">
-        <a
-          target="_blank"
-          href="https://github.com/22is5/cdn/tree/main/css/fonts"
-          >Font Repo</a
-        >
-        <a target="_blank" href="">Images</a>
-        <a target="_blank" href="">CSS</a>
-      </div>
-      <div class="fontWrapper">
-        <div class="font">
+    <div class="parent">
+      <div class="main">
+        <h1>22is5.com</h1>
+        <div class="links">
+          <a href="https://22is5.com">Go to Main Site</a>
+        </div>
+        <div class="spacer"></div>
+
+        <h3>Clancy</h3>
+        <div class="links">
           <a
-            href="https://cdn.22is5.org/css/fonts/cinzel.css"
-            style="font-family: Cinzel"
-            ><span>Cinzel</span><br />The quick brown fox jumps over the lazy
-            dog</a
+            href="https://cdn.22is5.com/fonts/clancy.css"
+            style="font-family: 'Clancy'"
+            >Clancy</a
           >
         </div>
 
-        <div class="font">
-          <a
-            href="https://cdn.22is5.org/css/fonts/clancy.css"
-            style="font-family: Clancy"
-            ><span>Clancy</span><br />The quick brown fox jumps over the lazy
-            dog</a
-          >
-          <div class="tags">
-            <p class="tagHeader">Tags</p>
-            <p>twenty one pilots</p>
-          </div>
-        </div>
+        <div class="spacer"></div>
 
-        <div class="font">
+        <h3>Jetbrains Mono</h3>
+        <div class="links">
           <a
-            href="https://cdn.22is5.org/css/fonts/jetbrains-mono.css"
+            href="https://cdn.22is5.com/fonts/jetbrains-mono.css"
             style="font-family: 'Jetbrains Mono'"
-            ><span>Jetbrains Mono</span><br />The quick brown fox jumps over the
-            lazy dog</a
+            >Jetbrains Mono</a
           >
         </div>
 
-        <div class="font">
+        <div class="spacer"></div>
+
+        <h3>Martian Mono</h3>
+        <div class="links">
           <a
-            href="https://cdn.22is5.org/css/fonts/martian-mono.css"
+            href="https://cdn.22is5.com/fonts/martian-mono.css"
             style="font-family: 'Martian Mono'"
-            ><span>Martian Mono</span><br />The quick brown fox jumps over the
-            lazy dog</a
+            >Martian Mono</a
           >
-          <div class="tags">
-            <p class="tagHeader">Tags</p>
-            <p>twenty one pilots</p>
-          </div>
         </div>
 
-        <div class="font">
+        <div class="spacer"></div>
+
+        <h3>Minecraft</h3>
+        <div class="links">
           <a
-            href="https://cdn.22is5.org/css/fonts/minecraft.css"
+            href="https://cdn.22is5.com/fonts/minecraft.css"
             style="font-family: 'Minecraft Regular'"
-            ><span style="font-family: 'Minecraft Bold'">Minecraft</span
-            ><br />The quick brown fox jumps over the lazy dog</a
+            >Minecraft Regular</a
+          >
+          <a
+            href="https://cdn.22is5.com/fonts/minecraft.css"
+            style="font-family: 'Minecraft Bold'"
+            >Minecraft Bold</a
+          >
+          <a
+            href="https://cdn.22is5.com/fonts/minecraft.css"
+            style="font-family: 'Minecraft Italic'"
+            >Minecraft Italic</a
+          >
+          <a
+            href="https://cdn.22is5.com/fonts/minecraft.css"
+            style="font-family: 'Minecraft Bold Italic'"
+            >Minecraft Bold Italic</a
           >
         </div>
 
-        <div class="font">
+        <div class="spacer"></div>
+
+        <h3>Mom's Typewriter</h3>
+        <div class="links">
           <a
-            href="https://cdn.22is5.org/css/fonts/moms-typewriter.css"
+            href="https://cdn.22is5.com/fonts/moms-typewriter.css"
             style="font-family: 'Moms Typewriter'"
-            ><span>Mom's Typewriter</span><br />The quick brown fox jumps over
-            the lazy dog</a
+            >Moms Typewriter</a
           >
-          <div class="tags">
-            <p class="tagHeader">Tags</p>
-            <p>My Chemical Romance</p>
-          </div>
         </div>
 
-        <div class="font">
+        <div class="spacer"></div>
+
+        <h3>Mona Sans</h3>
+        <div class="links">
           <a
-            href="https://cdn.22is5.org/css/fonts/mona-sans.css"
+            href="https://cdn.22is5.com/fonts/mona-sans.css"
             style="font-family: 'Mona Sans'"
-            ><span>Mona Sans</span><br />The quick brown fox jumps over the lazy
-            dog</a
+            >Mona Sans</a
           >
         </div>
 
-        <div class="font">
+        <div class="spacer"></div>
+
+        <h3>Nickel Gothic Compressed Regular</h3>
+        <div class="links">
           <a
-            href="https://cdn.22is5.org/css/fonts/nickel-gothic-compressed-regular.css"
+            href="https://cdn.22is5.com/fonts/nickel-gothic-compressed-regular.css"
             style="font-family: 'Nickel Gothic Compressed Regular'"
-            ><span>Nickel Gothic Compressed Regular</span><br />The quick brown
-            fox jumps over the lazy dog</a
-          >
-          <div class="tags">
-            <p class="tagHeader">Tags</p>
-            <p>twenty one pilots</p>
-          </div>
-        </div>
-
-        <div class="font">
-          <a
-            href="https://cdn.22is5.org/css/fonts/rubik.css"
-            style="font-family: Oswald"
-            ><span>Oswald</span><br />The quick brown fox jumps over the lazy
-            dog</a
+            >Nickel Gothic Compressed Regular</a
           >
         </div>
 
-        <div class="font">
+        <div class="spacer"></div>
+
+        <h3>Oswald</h3>
+        <div class="links">
           <a
-            href="https://cdn.22is5.org/css/fonts/rubik.css"
-            style="font-family: Rubik"
-            ><span>Rubik</span><br />The quick brown fox jumps over the lazy
-            dog</a
+            href="https://cdn.22is5.com/fonts/oswald.css"
+            style="font-family: 'Oswald'"
+            >Oswald</a
           >
         </div>
 
-        <div class="font">
+        <div class="spacer"></div>
+
+        <h3>Rubik</h3>
+        <div class="links">
           <a
-            href="https://cdn.22is5.org/css/fonts/times.css"
+            href="https://cdn.22is5.com/fonts/rubik.css"
+            style="font-family: 'Rubik'"
+            >Rubik</a
+          >
+        </div>
+
+        <div class="spacer"></div>
+
+        <h3>Scope One</h3>
+        <div class="links">
+          <a
+            href="https://cdn.22is5.com/fonts/scope-one.css"
             style="font-family: 'Scope One'"
-            ><span>Scope One</span><br />The quick brown fox jumps over the lazy
-            dog</a
+            >Scope One</a
           >
         </div>
 
-        <div class="font">
+        <div class="spacer"></div>
+
+        <h3>Times New Roman</h3>
+        <div class="links">
           <a
-            href="https://cdn.22is5.org/css/fonts/times.css"
-            style="font-family: 'Times New Roman'"
-            ><span>Times New Roman</span><br />The quick brown fox jumps over
-            the lazy dog</a
+            href="https://cdn.22is5.com/fonts/times.css"
+            style="font-family: 'Times'"
+            >Times</a
           >
         </div>
 
-        <div class="font">
+        <div class="spacer"></div>
+
+        <h3>Trajan</h3>
+        <div class="links">
           <a
-            href="https://cdn.22is5.org/css/fonts/trajan-pro.css"
+            href="https://cdn.22is5.com/fonts/trajan.css"
             style="font-family: 'Trajan Regular'"
-            ><span style="font-family: 'Trajan Bold'">Trajan</span><br />The
-            quick brown fox jumps over the lazy dog</a
+            >Trajan Regular</a
           >
-          <div class="tags">
-            <p class="tagHeader">Tags</p>
-            <p>My Chemical Romance</p>
-            <p>Circa Survive</p>
-          </div>
+          <a
+            href="https://cdn.22is5.com/fonts/trajan.css"
+            style="font-family: 'Trajan Bold'"
+            >Trajan Bold</a
+          >
         </div>
       </div>
     </div>
