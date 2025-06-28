@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      @import url("https://cdn.22is5.com/css/reset.css");
+      @import url("https://cdn.22is5.com/fonts/jetbrains-mono.css");
+      .main {
+        width: 64px;
+        height: 64px;
+        background-color: #fff;
+        color: #fff;
+        font-family: "Jetbrains Mono";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 64px;
+        position: relative;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ff00ff20;
+      }
+      :root {
+        --px: 22px;
+      }
+      .tl {
+        width: var(--px);
+        height: var(--px);
+        background-color: #000;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .tr {
+        width: var(--px);
+        height: var(--px);
+        background-color: #000;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .br {
+        width: var(--px);
+        height: var(--px);
+        background-color: #000;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      .bl {
+        width: var(--px);
+        height: var(--px);
+        background-color: #000;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tabicon</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="tl"></div>
+      <div class="tr"></div>
+      <div class="br"></div>
+      <div class="bl"></div>
+    </div>
+  </body>
+</html>
