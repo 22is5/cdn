@@ -16,42 +16,49 @@
         background-color: #fff;
         color: #dedede;
         font-weight: 800;
-        font-size: 200px;
+        font-size: 186px;
         width: 100%;
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
       }
-      div {
+      .main {
         width: 512px;
         height: 512px;
+        background-color: #000;
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #000;
-        flex-direction: column;
-        line-height: 0.8;
-        letter-spacing: 40px;
       }
       p {
-        text-shadow: 0 0 10px #000;
-        text-align: center;
-        transform: translate(20px, 0);
+        /* text-shadow: 0 0 10px #000; */
+        position: absolute;
       }
     </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.22is5.org/css/fonts/jetbrains-mono.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.22is5.org/css/fonts/jetbrains-mono.css"
+    />
     <title>22is5 Icon</title>
   </head>
   <body>
-    <div>
-      <p>2+&nbsp;</p>
-      <br />
-      <p>&nbsp;2&nbsp;</p>
-      <br />
-      <p>&nbsp;=5</p>
+    <div class="main">
+      <p style="transform: translate(-62px, -78px)">2</p>
+      <p
+        style="
+          text-shadow: 0 0 10px #000, 0 0 10px #000, 0 0 10px #000;
+          z-index: 100;
+        "
+      >
+        +
+      </p>
+      <p style="transform: translate(60px, -78px)">2</p>
+      <p style="transform: translate(-58px, 53px)">=</p>
+      <p style="transform: translate(58px, 91px)">5</p>
     </div>
   </body>
 </html>
