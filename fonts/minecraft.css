@@ -14,3 +14,7 @@
   font-family: "Minecraft Bold Italic";
   src: url("/fonts/otf/minecraft/minecraft-bolditalic.otf");
 }
+@font-face {
+  font-family: "Minecraft Mono";
+  src: url("/fonts/otf/minecraft/minecraft-mono.otf");
+}
