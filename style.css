@@ -15,6 +15,11 @@
 @import url("/fonts/trajan.css");
 /* Fonts */
 
+:root {
+  --light: #ffffff90;
+  --dark: #00000030;
+  --thickness: 2px;
+}
 body {
   font-family: "Mona Sans";
   background-color: #efefef;
@@ -50,6 +55,11 @@ h3 {
   display: flex;
   flex-direction: column;
   color: #354a5f;
+  padding: 12px;
+  border-top: solid var(--thickness) var(--light);
+  border-right: solid var(--thickness) var(--light);
+  border-bottom: solid var(--thickness) var(--dark);
+  border-left: solid var(--thickness) var(--dark);
 }
 .spacer {
   height: 2px;
