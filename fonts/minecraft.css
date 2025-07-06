@@ -18,3 +18,7 @@
   font-family: "Minecraft Mono";
   src: url("/fonts/otf/minecraft/minecraft-mono.otf");
 }
+@font-face {
+  font-family: "Minecraft Header";
+  src: url("/fonts/ttf/minecraft/minecraft-header.ttf");
+}
