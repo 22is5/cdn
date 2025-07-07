@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Bank Gothic Light";
+  src: url("/fonts/font/bank-gothic/bank-gothic-light.otf");
+}
+
+@font-face {
+  font-family: "Bank Gothic Medium";
+  src: url("/fonts/font/bank-gothic/bank-gothic-medium.ttf");
+}
+
+@font-face {
+  font-family: "Bank Gothic Bold";
+  src: url("/fonts/font/bank-gothic/bank-gothic-bold.ttf");
+}
