@@ -30,16 +30,30 @@ h2 {
   color: var(--topblurryred);
 }
 .spacer {
-  height: 12px;
+  height: 24px;
 }
 p {
   font-size: 18px;
   text-align: justify;
+  padding: 12px 0;
 }
 .links {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 12px 0;
   color: var(--topblurryred);
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+a {
+  color: var(--topblurryred);
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.subdomains {
+  padding: 12px 0 0 0;
+  font-size: 18px;
+  text-align: justify;
 }
