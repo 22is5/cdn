@@ -1,24 +1,24 @@
 @font-face {
   font-family: "Minecraft Regular";
-  src: url("/fonts/otf/minecraft/minecraft-regular.otf");
+  src: url("/fonts/minecraft/minecraft-regular.otf");
 }
 @font-face {
   font-family: "Minecraft Bold";
-  src: url("/fonts/otf/minecraft/minecraft-bold.otf");
+  src: url("/fonts/minecraft/minecraft-bold.otf");
 }
 @font-face {
   font-family: "Minecraft Italic";
-  src: url("/fonts/otf/minecraft/minecraft-italic.otf");
+  src: url("/fonts/minecraft/minecraft-italic.otf");
 }
 @font-face {
   font-family: "Minecraft Bold Italic";
-  src: url("/fonts/otf/minecraft/minecraft-bolditalic.otf");
+  src: url("/fonts/minecraft/minecraft-bolditalic.otf");
 }
 @font-face {
   font-family: "Minecraft Mono";
-  src: url("/fonts/otf/minecraft/minecraft-mono.otf");
+  src: url("/fonts/minecraft/minecraft-mono.otf");
 }
 @font-face {
   font-family: "Minecraft Header";
-  src: url("/fonts/ttf/minecraft/minecraft-header.ttf");
+  src: url("/fonts/minecraft/minecraft-header.ttf");
 }
