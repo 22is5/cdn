@@ -30,5 +30,56 @@
   --topred: #e35042;
   --topdarkred: #db2422;
   --topyellow: #fde200;
+
+  --topclancyred: #d62420;
+  --topclancyyellow: #ffd800;
+  --topclancyblack: #1f1f1f;
+  --topclancywhite: #d4d2c5;
+
+  --topsaiblue: #72c3d5;
+  --topsaipink: #f67eb4;
+  --topsailightpink: #e78cad;
+  --topsaigrey: #3d3a39;
+  --topsaiyellow: #fbe80b;
+  --topsaiwhite: #e9e9e9;
+  --topsaiteal: #62b9b0;
+  --topsailightteal: #97ded0;
+
+  --toplocyellow: #f4db10;
+  --toplocred: #cc5247;
+  --toplocwhite: #e1d3d9;
+  --toplocorange: #dc9b4f;
+
+  --toptrenchyellow: #fce300;
+  --bandito: var(--toptrenchyellow);
+  --toptrenchbrown: #7a7157;
+  --toptrenchgreen: #595b4c;
+  --toptrenchblack: #1e1e1e;
+
+  --topblurryred: #e03c31;
+  --topblurryblack: #010101;
+  --topblurrywhite: #eaeaea;
+  --topblurrygrey: #7a7070;
+
+  --topvesselblue: #89a9ce;
+  --topvesselgrey: #a2b1b8;
+  --topvesselblack: #070707;
+  --topvesselwhite: #fbf9f9;
+
+  --toprabgrey: #636161;
+  --toprabred: #e22c00;
+  --toprabwhite: #f2f0f0;
+  --toprabblue: #6bc1da;
+
+  --topstblack: #0f0f0f;
+  --topstwhite: #ececec;
+  --topst1: #ff9bab;
+  --topst2: #235ffe;
+  --topst3: #fef85c;
+  --topst4: #41965b;
+  --topst5: #720e54;
+  --topst6: #8cb82b;
+  --topst7: #9e3e9f;
+  --topst8: #2a3483;
   /* twenty one pilots */
 }
