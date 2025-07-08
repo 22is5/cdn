@@ -4,13 +4,19 @@
 body {
   background-color: var(--topblurryblack);
   color: var(--topblurrywhite);
+  background-image: url(/img/artists/twentyonepilots/trench/blackbird.jpg);
+  background-position: left;
+  background-size: cover;
   font-family: "vcr";
-  padding: 12px;
 }
 .contentWrapper {
+  padding: 12px;
   width: 100%;
   display: flex;
   justify-content: center;
+  height: fit-content;
+  min-height: 100vh;
+  backdrop-filter: blur(1vw) brightness(25%);
 }
 .content {
   width: 600px;
@@ -27,7 +33,7 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 24px;
-  color: var(--topblurryred);
+  color: var(--bandito);
 }
 .spacer {
   height: 24px;
@@ -41,17 +47,16 @@ p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  color: var(--topblurryred);
+  color: var(--bandito);
   font-size: 16px;
   letter-spacing: 2px;
 }
 a {
-  color: var(--topblurryred);
+  color: var(--bandito);
 }
 a:hover {
   text-decoration: underline;
 }
-
 .subdomains {
   padding: 12px 0 0 0;
   font-size: 18px;
