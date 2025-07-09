@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      @import url(/css/reset.css);
+      @import url(/css/colors.css);
+      body {
+        display: flex;
+        justify-content: center;
+        background-color: #222;
+        padding: 1%;
+      }
+      .main {
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: #181818;
+        padding: 12px;
+        gap: 12px;
+      }
+      img {
+        width: 50%;
+        aspect-ratio: 1/1;
+        box-sizing: content-box;
+      }
+      img:nth-of-type(even) {
+        border-radius: 50%;
+      }
+      .set {
+        width: 100%;
+        display: flex;
+        gap: 12px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Pictures</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="set">
+        <img src="/img/pfps/sai.png" />
+        <img src="/img/pfps/sai.png" />
+      </div>
+      <div class="set">
+        <img src="/img/pfps/bandito.png" />
+        <img src="/img/pfps/bandito.png" />
+      </div>
+      <div class="set">
+        <img src="/img/covers/cs-2007_onlettinggo-splash1.jpg" />
+        <img src="/img/covers/cs-2007_onlettinggo-splash1.jpg" />
+      </div>
+      <div class="set">
+        <img src="/img/covers/cs-2007_onlettinggo-splash2.jpg" />
+        <img src="/img/covers/cs-2007_onlettinggo-splash2.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
