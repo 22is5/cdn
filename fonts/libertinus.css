@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Libertinus Math";
+  src: url("/fonts/libertinus/LibertinusMath-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Libertinus Mono";
+  src: url("/fonts/libertinus/LibertinusMono-Regular.ttf");
+}
