@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Futura Regular";
-  src: url("/fonts/font/futura/futura-regular.ttf");
+  font-family: "Futura";
+  src: url("/fonts/futura/futura-regular.ttf");
 }
 
 @font-face {
   font-family: "Futura Light";
-  src: url("/fonts/font/futura/futura-light.ttf");
+  src: url("/fonts/futura/futura-light.ttf");
 }
