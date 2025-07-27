@@ -4,7 +4,7 @@
 body {
   background-color: var(--topblurryblack);
   color: var(--topblurrywhite);
-  background-image: url(/img/artists/twentyonepilots/trench/blackbird.jpg);
+  background-image: url(/img/artists/twentyonepilots/assets/trench/blackbird.jpg);
   background-position: left;
   background-size: cover;
   font-family: "VCR";
