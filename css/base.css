@@ -1,5 +1,129 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+@import url("reset.css");
+@import url("../fonts/mona-sans.css");
+@import url("../fonts/source-serif.css");
+@import url("../fonts/jetbrains-mono.css");
+html,
+body {
+  font-size: var(--root-size);
+  background-color: #000;
+}
+
+:root {
+  --bgc: #dedede;
+  --content-bgc: #efefef;
+  --font-color: #000;
+  --root-size: 18px;
+  --content-font: "Source Serif";
+  --header-font: "Mona Sans";
+  --spoiler-color: #000;
+}
+
+.wrapper {
+  background-color: var(--bgc);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  background-color: #000;
+  color: #fff;
+  font-family: var(--header-font);
+  font-weight: 600;
+  padding: 24px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+.content {
+  width: 640px;
+  max-width: 100%;
+  font-size: var(--root-size);
+  font-family: var(--content-font);
+  padding: 0.8rem;
+  background-color: var(--content-bgc);
+  line-height: 1.3;
+  color: var(--font-color);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: var(--header-font);
+  font-weight: 600;
+}
+
+h2 {
+  text-align: left;
+  font-size: 2rem;
+  font-family: var(--header-font);
+  font-weight: 600;
+}
+h3 {
+  text-align: left;
+  font-size: 1.3rem;
+  font-family: var(--header-font);
+  font-weight: 600;
+}
+h4 {
+  text-align: left;
+  font-size: 1rem;
+  font-family: var(--header-font);
+  font-weight: 600;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li:before {
+  content: "• ";
+  font-weight: 200;
+}
+
+code {
+  font-family: "Jetbrains Mono";
+  background-color: #121212;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+pre {
+  font-family: "Jetbrains Mono";
+  background-color: #121212;
+  color: #fff;
+  padding: 12px 12px;
+  border-radius: 6px;
+}
+.spacer {
+  height: 16px;
+}
+.spoiler {
+  user-select: none;
+  background-color: var(--spoiler-color);
+  color: var(--spoiler-color);
+}
+.spoiler:hover {
+  background-color: #00000020;
+  color: var(--font-color);
+  user-select: initial;
+}
+.footer {
+  padding: 24px 0;
+  width: 100%;
+  background-color: #000;
+  color: #ffffffcc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--content-font);
+  font-size: 0.8em;
+}
+.copy:before {
+  content: "© ";
 }
