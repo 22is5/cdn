@@ -1,0 +1,17 @@
+@import url("reset.css");
+file-wrap {
+  font-size: 18px;
+  width: 100%;
+  background-color: #cacaca;
+  font-family: "Jetbrains Mono";
+  display: flex;
+  flex-direction: column;
+  border: solid 2px #cacaca;
+}
+file-wrap a {
+  padding: 6px;
+  width: 100%;
+}
+file-wrap a:nth-child(even) {
+  background-color: #dedede;
+}
