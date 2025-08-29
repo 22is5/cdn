@@ -20,6 +20,7 @@ body {
   --spoiler-color: #000;
   --bullet-point: "• ";
   --title-margin: 82px;
+  --content-radius: 12px;
 }
 
 .wrap {
@@ -50,11 +51,12 @@ body {
   max-width: 100%;
   font-size: var(--root-size);
   font-family: var(--content-font);
-  padding: 0.8rem;
+  padding: 0.6rem 1rem;
   background-color: var(--content-bgc);
   line-height: 1.3;
   color: var(--font-color);
-  filter: drop-shadow(0 0 10px #00000024)
+  filter: drop-shadow(0 0 10px #00000024);
+  border-radius: var(--content-radius) var(--content-radius) 0 0;
 }
 
 h1 {
@@ -112,7 +114,7 @@ pre {
   background-color: #121212;
   color: #fff;
   padding: 12px 12px;
-  border-radius: 6px;
+  border-radius: 12px;
   margin: 0.5em 0;
 }
 
