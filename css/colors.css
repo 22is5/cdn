@@ -84,4 +84,28 @@
   --topst7: #9e3e9f;
   --topst8: #2a3483;
   /* twenty one pilots */
+
+  /* minecraft */
+  --mc-red: #ff5555;
+  --mc-dark_red: #aa0000;
+  --mc-gold: #ffaa00;
+  --mc-yellow: #ffff55;
+  --mc-green: #55ff55;
+  --mc-dark_green: #00aa00;
+  --mc-aqua: #55ffff;
+  --mc-dark_aqua: #00aaaa;
+  --mc-blue: #5555ff;
+  --mc-dark_blue: #0000aa;
+  --mc-light_purple: #ff55ff;
+  --mc-dark_purple: #aa00aa;
+  --mc-black: #000000;
+  --mc-dark_gray: #555555;
+  --mc-gray: #aaaaaa;
+  --mc-white: #ffffff;
+
+  --common: var(--mc-white);
+  --uncommon: var(--mc-yellow);
+  --rare: var(--mc-aqua);
+  --epic: var(--mc-light_purple);
+  /* minecraft */
 }
