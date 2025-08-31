@@ -1,6 +1,10 @@
 @font-face {
+  font-family: "Minecraft Seven";
+  src: url("/fonts/minecraft/Minecraft-Seven_v2.ttf");
+}
+@font-face {
   font-family: "Minecraft Regular";
-  src: url("/fonts/minecraft/minecraft-regular.otf");
+  src: url("/fonts/minecraft/Minecraft-Seven_v2.ttf");
 }
 @font-face {
   font-family: "Minecraft Bold";
@@ -20,5 +24,5 @@
 }
 @font-face {
   font-family: "Minecraft Ten";
-  src: url("/fonts/minecraft/minecraft-ten.ttf");
+  src: url("/fonts/minecraft/Minecraft-Tenv2.ttf");
 }
