@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      @import url("css/reset.css");
+      @import url("fonts/trajan/font.css");
+      @import url("fonts/source-serif/font.css");
+      :root {
+        --accent: #e62929;
+      }
+      body {
+        background-color: #121212;
+        color: #fff;
+        font-family: "Source Serif";
+        padding: 12px;
+      }
+      .wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 6px;
+      }
+      .content {
+        width: fit-content;
+        max-width: 100%;
+      }
+      h1 {
+        font-family: "Trajan Bold";
+        text-transform: uppercase;
+        font-size: 32px;
+        color: var(--accent);
+      }
+      a {
+        text-decoration: underline;
+        color: var(--accent);
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/files.css" />
-    <link rel="stylesheet" href="css/base.css" />
-    <title>22is5-cdn</title>
+    <title>22is5/cdn</title>
   </head>
   <body>
     <div class="wrap">
-      <div class="title">cdn</div>
       <div class="content">
-        <h2>Content Delivery Network</h2>
-        <file-wrap>
-          <a href="../">../</a>
-          <a href="css/" class="folder">css</a>
-          <a href="fonts/" class="folder">fonts</a>
-        </file-wrap>
+        <h1>CDN</h1>
+        <p>Content Delivery Network for <a href="https://22is5.com">22is5.com</a></p>
       </div>
     </div>
   </body>
