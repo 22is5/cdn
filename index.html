@@ -7,9 +7,10 @@
       @import url("fonts/source-serif/font.css");
       :root {
         --accent: #e62929;
+        --bgc: #121212;
       }
       body {
-        background-color: #121212;
+        background-color: var(--bgc);
         color: #fff;
         font-family: "Source Serif";
         padding: 12px;
@@ -18,11 +19,14 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        padding: 6px;
       }
       .content {
         width: fit-content;
         max-width: 100%;
+        filter: drop-shadow(0 0 6px #000);
+        background-color: var(--bgc);
+        padding: 24px;
+        border-radius: 12px;
       }
       h1 {
         font-family: "Trajan Bold";
