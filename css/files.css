@@ -1,4 +1,5 @@
 @import url("reset.css");
+@import url("../fonts/jetbrains-mono/font.css");
 file-wrap {
   font-size: 18px;
   width: 100%;
